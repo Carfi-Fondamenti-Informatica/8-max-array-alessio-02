@@ -9,6 +9,6 @@ int main() {
     for (int i = 0; i < d1; i++) {
         cin >> a[i];
     }
-    f(a, d1);
+    cout << f(a, d1);
     return 0;
 }
