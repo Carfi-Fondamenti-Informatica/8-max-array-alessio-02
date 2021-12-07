@@ -1,1 +1,1 @@
-float f(float[], int);
+void f1(float[], int);
