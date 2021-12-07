@@ -1,7 +1,7 @@
 #include "lib.h"
 #include <iostream>
 
-void f(float a[], int d1){
+float f(float a[], int d1){
     float temp[1]{0}, temp1[1], temp2[1];
     if (a[0]>=a[d1-1]){
         temp1[0]=a[0];
@@ -24,5 +24,5 @@ void f(float a[], int d1){
     if (temp[0]<temp2[0]) {
         temp[0] = temp2[0];
     }
-    std::cout << temp[0];
+    return temp[0];
 }
