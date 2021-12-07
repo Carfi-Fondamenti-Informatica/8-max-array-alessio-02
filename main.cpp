@@ -9,6 +9,7 @@ int main() {
     for (int i = 0; i < d1; i++) {
         cin >> a[i];
     }
-    cout << f(a, d1);
+    f1(a, d1);
+    cout << a[0];
     return 0;
 }
